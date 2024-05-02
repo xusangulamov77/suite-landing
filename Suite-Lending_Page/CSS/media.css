@@ -1,0 +1,93 @@
+@media only screen and (max-width: 768px) {
+    .hero-content__img {
+        left: 50%;
+    }
+    .hero-content__con {
+        max-width: 223px;
+        width: 100%;
+        line-height: 56px;
+        padding-left: -0;
+        display: flex;
+        flex-direction: unset;
+        padding-top: 158px;
+        column-gap: 100px;
+    }
+
+    .content {
+        max-width: 689px;
+        width: 100%;
+        height: max-content;
+        flex-shrink: 0;
+        border-radius: 15px;
+        background: var(--Dark-Blue);
+        flex-direction: column;
+    }
+    .content-jeremy {
+        flex-direction: column;
+    }
+    .content-photos {
+        margin: 0;
+        width: 49.268px;
+        height: 40px;
+        flex-shrink: 0;
+        margin-left: 140px;
+        margin-top: 40px;
+        margin-bottom: 37px;
+    }
+    .content-image {
+        margin-top: -300px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 375px) {
+    .hero-content__image {
+        width: 100px;
+        padding-top: 50px;
+        flex-shrink: 0;
+    }
+    .hero-content__title {
+        text-align: center;
+        max-width: 343px;
+        width: 100%;
+        letter-spacing: -0.528px;
+        font-size: 38px;
+        line-height: 44px; 
+    }
+    .hero-content__span {
+        text-align: center;
+        font-size: 38px;
+        line-height: 44px;
+        letter-spacing: -0.528px;
+    }
+    .hero-content__img {
+        position: unset;
+        z-index: unset;
+        left: 0;
+        object-fit: unset;
+        justify-content: unset;
+    }
+    .hero-content__con {
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 63px;
+        padding-top: 56px;
+    }
+    .content {
+        max-width: 375px;
+        width: 100%;
+        height: max-content;
+        flex-shrink: 0;
+        border-radius: 15px;
+        background: var(--Dark-Blue);
+    }
+    .footer-content {
+        flex-direction: column;
+        row-gap: 33px;
+    }
+}

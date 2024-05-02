@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suite-landing-page</title>
+    <link rel="stylesheet" href="./CSS/main.css">
+</head>
+
+<body>
+    <!-- HEADER-HERO -->
+    <div class="header-hero">
+        <section class="header">
+            <div class="container">
+                <div class="header-content content">
+                    <img src="./" alt="" class="content-image">
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- HEADER-HERO -->
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url(./fonts.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1142px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* CONTAINER */
+
+:root {
+    --Cream-White: #FAF8F6;
+    --Dark-Blue: #172339;
+    --Grey: #49566D;
+    --Cream: #F3EDE7;
+    --Seren-color: #A060FF;
+    --Color: #CB30E3;
+    --Yellow: #FFA84E;
+}
+
+/* ALL-BTN */
+
+.dark-btn {
+    cursor: pointer;
+    max-width: 256px;
+    width: 100%;
+    height: 61px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background-color: #172339;
+    color: #FAF8F6;
+    font-family: "Epilogue";
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    padding: 14px 32px;
+}
+.dark-btn:hover {
+    max-width: 256px;
+    width: 100%;
+    height: 61px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: linear-gradient(135deg,#A060FF, #CB30E3, #FFA84E);
+    color: #FAF8F6;
+    font-family: "Epilogue";
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    padding: 14px 32px;
+}
+.white-btn {
+    width: 219px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #172339;
+    color: #172339;
+    font-family: "Epilogue";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px; 
+    letter-spacing: -0.16px;
+    text-align: center;
+    padding: 12px 24px;
+    transition: .4s;
+}
+.white-btn:hover {
+    width: 219px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #172339;
+    background: #172339;
+    color:#FAF8F6;
+    font-family: "Epilogue";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.16px;
+}
+/* ALL-BTN */
+
+/* BODY */
+body {
+    width: 1440px;
+    width: 100%;
+    height: 1716px;
+    height: 100%;
+    background: var(--Cream-White);
+    font-family: "Epilogue";
+}
+/* BODY */
+
+
+/* HEADER */
+
+/* HEADER */
