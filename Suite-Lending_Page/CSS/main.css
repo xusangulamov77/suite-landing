@@ -1,4 +1,4 @@
-@import url(./fonts.css);
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,6 @@ a {
 ul {
     list-style: none;
 }
-
 
 .container {
     max-width: 1142px;
@@ -49,7 +48,6 @@ ul {
     border-radius: 6px;
     background-color: #172339;
     color: #FAF8F6;
-    font-family: "Epilogue";
     text-align: center;
     font-size: 18px;
     font-weight: 700;
@@ -63,7 +61,6 @@ ul {
     height: 61px;
     flex-shrink: 0;
     border-radius: 6px;
-    background: linear-gradient(135deg,#A060FF, #CB30E3, #FFA84E);
     color: #FAF8F6;
     font-family: "Epilogue";
     text-align: center;
@@ -80,8 +77,8 @@ ul {
     border-radius: 6px;
     border: 1px solid #172339;
     color: #172339;
-    font-family: "Epilogue";
-    font-size: 16px;
+ 
+    font-size: 18px;
     font-weight: 700;
     line-height: 32px; 
     letter-spacing: -0.16px;
@@ -287,9 +284,8 @@ body {
     line-height: 26px;
     letter-spacing: 2.5px;
 }
-/* SECTION */
 
-/* FOOTER */
+
 .footer {
     max-width: 1440px;
     width: 100%;
@@ -325,4 +321,3 @@ body {
     color: var(--Grey);
     opacity: 0.5;
 }
-/* FOOTER */
